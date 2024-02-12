@@ -234,6 +234,7 @@ def train():
     plot_durations(show_result=True)
     plt.ioff()
     plt.show()
+    env.close()
 
 
 def test(episodes):
